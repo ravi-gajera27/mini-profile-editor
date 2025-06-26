@@ -17,6 +17,7 @@ async function getProfile(): Promise<ProfileData> {
     const result = await response.json();
     return result.data;
   } catch (error) {
+    console.log(error)
     // Fallback data if API fails
     return {
       name: 'Ravi Gajera',
