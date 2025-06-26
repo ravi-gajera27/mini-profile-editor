@@ -21,6 +21,7 @@ export async function GET() {
       data: mockProfile,
     });
   } catch (error) {
+    console.log('Error fetching profile:', error);
     return NextResponse.json({
       success: false,
       error: 'Failed to fetch profile',
@@ -55,6 +56,7 @@ export async function PUT(request: NextRequest) {
       data: mockProfile,
     });
   } catch (error) {
+    console.log('Error updating profile:', error);
     return NextResponse.json({
       success: false,
       error: 'Failed to update profile',
