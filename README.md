@@ -66,8 +66,7 @@ A modern profile management application built with Next.js 15, featuring public 
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd nextjs-profile-editor
+   git clone https://github.com/ravi-gajera27/mini-profile-editor
    ```
 
 2. **Install dependencies**
